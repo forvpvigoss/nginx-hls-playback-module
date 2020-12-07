@@ -19,6 +19,10 @@ server {
     }
 }
 
+usage:
+# complie with nginx-hls-playback-module
+./configure --add-module=addition_module/nginx-hls-playback-module
+
 eg:
 
 curl http://127.0.0.1:8081/playback/play.m3u8?delay=XXX
