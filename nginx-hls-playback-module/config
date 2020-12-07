@@ -1,0 +1,8 @@
+ngx_module_type=HTTP
+ngx_addon_name=ngx_hls_playback_module
+ngx_module_name=ngx_hls_playback_module
+ngx_module_incs=
+ngx_module_deps="$ngx_addon_dir/hls/ngx_hls_playback_module.h"
+ngx_module_srcs="$ngx_addon_dir/hls/ngx_hls_playback_module.c"
+
+. auto/module
